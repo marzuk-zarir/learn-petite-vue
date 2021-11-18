@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[v-cloak] {
+    @apply hidden;
+}
+
+.container > * {
+    @apply mb-8;
+}
+
+.text-xl {
+    @apply mb-3;
+}
